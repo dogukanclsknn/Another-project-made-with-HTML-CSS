@@ -1,0 +1,91 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 100px;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstRow{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.secondRow{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.thirdRow{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-right: 150px;
+}
+.button-1{
+    width: 160px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 95px;
+}
+.button-2{
+    width: 160px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.first-h1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+    margin-top: 30px;
+}
+.first-h5{
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.first-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.second-h1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+    margin-top: 40px;
+}
+.second-h5{
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.second-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
